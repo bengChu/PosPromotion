@@ -25,6 +25,11 @@ exports.read = async (req, res) => {
 }
 
 exports.list = async (req, res) => {
+
+    //bengtest ลองเติมcomment
+
+    var s = "bengtest";
+    
     try {
     const query = {}
     const sort = { Id: -1} //1คือASC, -1คือDESC
