@@ -33,6 +33,9 @@ exports.list = async (req, res) => {
     //ลองเติมcommentครั้งที่2...
     var s2= "bengtest02";
 
+    //ลองเติมcommentครั้งที่3...
+    s2= "bengtest03";
+
     try {
     const query = {}
     const sort = { Id: -1} //1คือASC, -1คือDESC
